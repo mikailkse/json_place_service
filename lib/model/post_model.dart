@@ -28,7 +28,7 @@ class PostModel extends IBaseModel<PostModel> {
   }
 
   @override
-  fromJson(Map<String, Object> json) {
+  fromJson(Map<String, dynamic> json) {
     return PostModel.fromJson(json);
   }
 }

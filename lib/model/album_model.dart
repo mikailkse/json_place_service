@@ -24,7 +24,5 @@ class AlbumModel extends IBaseModel<AlbumModel> {
   }
 
   @override
-  AlbumModel fromJson(Map<String, Object> json) {
-    return AlbumModel.fromJson(json);
-  }
+  AlbumModel fromJson(Map<String, dynamic> json) => AlbumModel.fromJson(json);
 }
